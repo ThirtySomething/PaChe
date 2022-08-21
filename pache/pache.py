@@ -37,6 +37,6 @@ class PaChe:
         for path in self.paths:
             if path:
                 if not os.path.exists(path):
-                    logging.debug('--- [%s]', '{}'.format(path))
+                    logging.info('--- [%s]', '{}'.format(path))
                 else:
-                    logging.debug('+++ [%s]', '{}'.format(path))
+                    logging.info('+++ [%s]', '{}'.format(path))
